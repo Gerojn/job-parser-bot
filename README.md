@@ -37,13 +37,19 @@ Telegram bot for showing job vacancies.
 ```bash
 uv sync
 uv run python main.py
+```
 
-Environment Variables:
-Create .env file:
+## Environment Variables
+
+Create a `.env` file:
+
+```env
 BOT_TOKEN=your_bot_token_here
+```
 
-Future Improvements
-real job parser
-database integration
-filters by keyword
-saving user requests
+## Future Improvements
+
+- real job parser
+- database integration
+- filters by keyword
+- saving user requests
