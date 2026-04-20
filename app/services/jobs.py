@@ -1,8 +1,8 @@
-def get_mock_jobs() -> list[dict]:
+def get_mock_jobs() -> list[dict[str, str]]:
     return [
         {
             "title": "Python Developer",
-            "company": "Softplus",
+            "company": "SoftPlus",
             "location": "Remote",
             "url": "https://example.com/job1",
         },
